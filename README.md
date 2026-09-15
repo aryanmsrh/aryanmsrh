@@ -30,8 +30,8 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aryanmsrh&label=PROFILE+VIEWS&style=for-the-badge&color=27272A&label_color=000000" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/COMMITS-65+_LIFETIME-27272A?style=for-the-badge&logo=git&logoColor=white&labelColor=000000" alt="Lifetime Commits" />
-  <img src="https://img.shields.io/badge/REPOSITORIES-4_PUBLIC-27272A?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Public Repositories" />
+  <img src="https://img.shields.io/badge/CONTRIBUTIONS-65+-27272A?style=for-the-badge&labelColor=000000" alt="Contributions" />
+  <img src="https://img.shields.io/badge/REPOSITORIES-4-27272A?style=for-the-badge&labelColor=000000" alt="Repositories" />
 </p>
 
 ---
