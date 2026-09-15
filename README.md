@@ -7,14 +7,11 @@
   <img src="./assets/banner.svg" alt="Aryan Mishra — Applied Mathematics, Quantitative Finance, Machine Learning" width="100%" />
 </p>
 
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-aryanmsrh.github.io-38BDF8?style=flat-square&logo=googlechrome&logoColor=38BDF8&labelColor=08090C)](https://aryanmsrh.github.io)
-[![GitHub](https://img.shields.io/badge/GITHUB-@aryanmsrh-E2E8F0?style=flat-square&logo=github&logoColor=white&labelColor=08090C)](https://github.com/aryanmsrh)
-[![Email](https://img.shields.io/badge/SIGNAL-aryanmsrh@gmail.com-10B981?style=flat-square&logo=maildotru&logoColor=10B981&labelColor=08090C)](mailto:aryanmsrh@gmail.com)
-[![Spotify](https://img.shields.io/badge/ON_REPEAT-I_Was_Never_There_•_The_Weeknd-1DB954?style=flat-square&logo=spotify&logoColor=1DB954&labelColor=08090C)](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b)
-
-</div>
+<p align="center">
+  <a href="https://aryanmsrh.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-aryanmsrh.github.io-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=38BDF8&labelColor=08090C" alt="Portfolio" /></a>
+  <a href="https://github.com/aryanmsrh"><img src="https://img.shields.io/badge/GITHUB-aryanmsrh-E2E8F0?style=for-the-badge&logo=github&logoColor=white&labelColor=08090C" alt="GitHub" /></a>
+  <a href="mailto:aryanmsrh@gmail.com"><img src="https://img.shields.io/badge/EMAIL-aryanmsrh%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=08090C" alt="Email" /></a>
+</p>
 
 <div align="center">
 
@@ -29,20 +26,13 @@ STATUS    :: Formulate from first principles; execute with computational rigor.
 
 ---
 
-### `// AUDIO TELEMETRY`
+### `// ON REPEAT`
 
-<div align="center">
-
-```
-♫ NOW STREAMING // SPOTIFY
-Track   : I Was Never There — The Weeknd (feat. Gesaffelstein)
-Album   : My Dear Melancholy,
-Audio   : [▶] 01:42 ━━━━━━━━━━●──────────────── 04:01  ⇄  ◁  ❚❚  ▷  ↻
-```
-
-[🎧 **Listen on Spotify**](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b)
-
-</div>
+<p align="center">
+  <a href="https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/spotify.svg" alt="The Weeknd - I Was Never There on Spotify" width="540" />
+  </a>
+</p>
 
 ---
 
@@ -58,16 +48,18 @@ Audio   : [▶] 01:42 ━━━━━━━━━━●────────�
 | **Bash / Shell** | `Proficient` | POSIX automation, environment scripting, command-line toolchains |
 | **SQL** | `Working Knowledge` | Relational querying, dataset manipulation, aggregations |
 
-</div>
+<br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=08090C" alt="Python" />
-  <img src="https://img.shields.io/badge/C++_(Learning)-00599C?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=08090C" alt="C++" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=08090C" alt="Linux" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=08090C" alt="Bash" />
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white&labelColor=08090C" alt="LaTeX" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=08090C" alt="Git" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=08090C" alt="Python" />
+  <img src="https://img.shields.io/badge/C++_(Learning)-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=08090C" alt="C++" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=08090C" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=08090C" alt="Bash" />
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white&labelColor=08090C" alt="LaTeX" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=08090C" alt="Git" />
 </p>
+
+</div>
 
 ---
 
@@ -123,12 +115,12 @@ Audio   : [▶] 01:42 ━━━━━━━━━━●────────�
 | **Interactive Portfolio** | [aryanmsrh.github.io](https://aryanmsrh.github.io) |
 | **GitHub Profile** | [@aryanmsrh](https://github.com/aryanmsrh) |
 | **Direct Mail** | [aryanmsrh@gmail.com](mailto:aryanmsrh@gmail.com) |
-| **Spotify Track** | [The Weeknd — I Was Never There](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b) |
+| **Spotify** | [The Weeknd — I Was Never There](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b) |
 
 <br>
 
-[![Visit Portfolio](https://img.shields.io/badge/VISIT-INTERACTIVE_PORTFOLIO-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=08090C&labelColor=08090C)](https://aryanmsrh.github.io)
-[![Send Email](https://img.shields.io/badge/SEND-DIRECT_MESSAGE-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090C)](mailto:aryanmsrh@gmail.com)
+<a href="https://aryanmsrh.github.io"><img src="https://img.shields.io/badge/VISIT-INTERACTIVE_PORTFOLIO-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=08090C&labelColor=08090C" alt="Visit Portfolio" /></a>
+<a href="mailto:aryanmsrh@gmail.com"><img src="https://img.shields.io/badge/SEND-DIRECT_MESSAGE-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090C" alt="Send Email" /></a>
 
 </div>
 
