@@ -3,19 +3,19 @@
   <desc id="termDesc">Animated terminal simulating 1,000,000 Geometric Brownian Motion paths with C++20 vectorized engine and risk metrics telemetry.</desc>
   <defs>
     <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0C101A"/>
-      <stop offset="100%" stop-color="#06080E"/>
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
 
     <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="50%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
     </linearGradient>
 
     <style>
       .font-mono {
-        font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace;
+        font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'Fira Code', Menlo, Consolas, monospace;
       }
       
       @keyframes blink {
@@ -60,11 +60,11 @@
 
   <!-- Window Frame -->
   <rect width="1000" height="340" rx="12" fill="url(#termBg)"/>
-  <rect x="0.75" y="0.75" width="998.5" height="338.5" rx="11.25" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="998.5" height="338.5" rx="11.25" fill="none" stroke="#27272A" stroke-width="1.5"/>
 
   <!-- Window Header / Title Bar -->
   <path d="M 0 12 C 0 5.373 5.373 0 12 0 L 988 0 C 994.627 0 1000 5.373 1000 12 L 1000 38 L 0 38 Z" fill="url(#headerGrad)"/>
-  <line x1="0" y1="38" x2="1000" y2="38" stroke="#1E293B" stroke-width="1"/>
+  <line x1="0" y1="38" x2="1000" y2="38" stroke="#27272A" stroke-width="1"/>
 
   <!-- Window Buttons -->
   <g transform="translate(18, 14)">
