@@ -29,7 +29,8 @@
 </table>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aryanmsrh&label=PROFILE+VIEWS&style=for-the-badge&color=FFFFFF&label_color=000000" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=aryanmsrh&label=PROFILE+VIEWS&style=for-the-badge&color=000000&label_color=000000" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/aryanmsrh?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&labelColor=000000&color=000000" alt="GitHub Followers" />
 </p>
 
 ---
@@ -90,8 +91,8 @@
 
 <br>
 
-<a href="https://aryanmsrh.github.io"><img src="https://img.shields.io/badge/VISIT-INTERACTIVE_PORTFOLIO-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=08090C&labelColor=08090C" alt="Visit Portfolio" /></a>
-<a href="mailto:aryanmsrh@gmail.com"><img src="https://img.shields.io/badge/SEND-DIRECT_MESSAGE-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090C" alt="Send Email" /></a>
+<a href="https://aryanmsrh.github.io"><img src="https://img.shields.io/badge/VISIT-INTERACTIVE_PORTFOLIO-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Visit Portfolio" /></a>
+<a href="mailto:aryanmsrh@gmail.com"><img src="https://img.shields.io/badge/SEND-DIRECT_MESSAGE-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Send Email" /></a>
 
 </div>
 
