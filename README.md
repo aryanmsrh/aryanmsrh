@@ -1,92 +1,105 @@
 <!-- ================================================================= -->
-<!-- ARYAN MISHRA (aryanmsrh) // GITHUB PROFILE                        -->
+<!-- ARYAN MISHRA (aryanmsrh) // OBSIDIAN MINIMAL                      -->
 <!-- Applied Mathematics · Quantitative Finance · Machine Learning     -->
 <!-- ================================================================= -->
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Aryan Mishra — Mathematics, Quantitative Finance, Machine Learning" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://aryanmsrh.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-aryanmsrh.github.io-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=07090E&labelColor=07090E" alt="Portfolio" /></a>
-  <a href="https://github.com/aryanmsrh?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-818CF8?style=for-the-badge&logo=github&logoColor=white&labelColor=07090E" alt="Repos" /></a>
-  <img src="https://img.shields.io/badge/CORE_STACK-PYTHON%20%7C%20C%2B%2B-F59E0B?style=for-the-badge&logo=python&logoColor=F59E0B&labelColor=07090E" alt="Core Stack" />
-  <a href="mailto:aryanmsrh@gmail.com"><img src="https://img.shields.io/badge/CONTACT-SIGNAL-10B981?style=for-the-badge&logo=maildotru&logoColor=10B981&labelColor=07090E" alt="Contact" /></a>
+  <img src="./assets/banner.svg" alt="Aryan Mishra — Applied Mathematics, Quantitative Finance, Machine Learning" width="100%" />
 </p>
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-aryanmsrh.github.io-38BDF8?style=flat-square&logo=googlechrome&logoColor=38BDF8&labelColor=08090C)](https://aryanmsrh.github.io)
+[![GitHub](https://img.shields.io/badge/GITHUB-@aryanmsrh-E2E8F0?style=flat-square&logo=github&logoColor=white&labelColor=08090C)](https://github.com/aryanmsrh)
+[![Email](https://img.shields.io/badge/SIGNAL-aryanmsrh@gmail.com-10B981?style=flat-square&logo=maildotru&logoColor=10B981&labelColor=08090C)](mailto:aryanmsrh@gmail.com)
+[![Spotify](https://img.shields.io/badge/ON_REPEAT-I_Was_Never_There_•_The_Weeknd-1DB954?style=flat-square&logo=spotify&logoColor=1DB954&labelColor=08090C)](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b)
+
+</div>
+
+<div align="center">
+
 ```
-[SYSTEM INITIALIZATION]
 OPERATOR  :: Aryan Mishra (@aryanmsrh)
-CORE AXIS :: Mathematics × Quantitative Finance × Machine Learning
-PARADIGM  :: First-principles derivation → Vectorized & Compiled execution
-STACK     :: C++20 · Python 3.11+ · NumPy · Stochastic Calculus · Low-Latency Systems
+DOMAINS   :: Applied Mathematics · Quantitative Finance · Machine Learning
+RUNTIMES  :: Python 3.11+ (Numerical/Vectorized) · C++20 (Actively Learning / Systems)
+STATUS    :: Formulate from first principles; execute with computational rigor.
 ```
 
 </div>
 
-> *"A problem is only understood once you can formalize its mathematics and write its memory-conscious numerical implementation without black-box abstractions."*
+---
+
+### `// AUDIO TELEMETRY`
+
+<div align="center">
+
+```
+♫ NOW STREAMING // SPOTIFY
+Track   : I Was Never There — The Weeknd (feat. Gesaffelstein)
+Album   : My Dear Melancholy,
+Audio   : [▶] 01:42 ━━━━━━━━━━●──────────────── 04:01  ⇄  ◁  ❚❚  ▷  ↻
+```
+
+[🎧 **Listen on Spotify**](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b)
+
+</div>
 
 ---
 
-### `01 // ARCHITECTURE & FOCUS AREAS`
+### `01 // LANGUAGES`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📐 Applied Mathematics &amp; Modelling</h4>
-      <ul>
-        <li><b>Linear Algebra &amp; Spectral Theory:</b> Eigenvalue problems, SVD, orthonormal basis projections, coordinate transforms.</li>
-        <li><b>Differential Equations:</b> Numerical ODE/PDE solvers, finite-difference methods, dynamical systems.</li>
-        <li><b>Optimization:</b> Convex analysis, unconstrained gradient methods, loss landscape topography.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📈 Quantitative Finance &amp; Stochastics</h4>
-      <ul>
-        <li><b>Stochastic Calculus:</b> Ito's Lemma, Geometric Brownian Motion (GBM), jump-diffusion processes.</li>
-        <li><b>Monte Carlo Simulation:</b> High-volume variance reduction, path generation, option pricing engines.</li>
-        <li><b>Risk &amp; Statistics:</b> Time-series volatility modeling, covariance matrices, VaR/CVaR estimation.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 Machine Learning from Primitives</h4>
-      <ul>
-        <li><b>Zero-Framework Deep Learning:</b> Explicit matrix backpropagation, analytical gradients, weight initialization.</li>
-        <li><b>Vectorized Operations:</b> Batch processing with NumPy broadcasting; no PyTorch/TensorFlow black boxes.</li>
-        <li><b>Loss Manifolds:</b> Convergence dynamics, learning rate schedules, cross-entropy minimization.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ High-Performance Computing &amp; C++</h4>
-      <ul>
-        <li><b>Low Latency:</b> Cache hierarchy awareness, memory layout optimization, minimal pointer chasing.</li>
-        <li><b>Modern C++ (C++17/20):</b> Fast I/O, compile-time evaluation (constexpr), STL algorithms.</li>
-        <li><b>Target Budgets:</b> Sub-microsecond execution loops and deterministic runtime profiles.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
 
----
+| Language | Proficiency / Status | Primary Application |
+| :--- | :--- | :--- |
+| **Python** | `Core / Production` | Vectorized numerical computing, NumPy array math, statistical modelling |
+| **C++** | `Actively Learning` | Systems programming, memory management, cache awareness, modern STL (C++20) |
+| **LaTeX** | `Daily Tool` | Mathematical manuscripts, proofs, algorithmic problem formulations |
+| **Bash / Shell** | `Proficient` | POSIX automation, environment scripting, command-line toolchains |
+| **SQL** | `Working Knowledge` | Relational querying, dataset manipulation, aggregations |
 
-### `02 // EMPIRICAL BENCHMARKS & HARD NUMBERS`
+</div>
 
 <p align="center">
-  <img src="./assets/telemetry.svg" alt="Documented Project Benchmarks: 97.2% accuracy, 109.4K parameters, 60 FPS canvas, sub-10us budget" width="100%" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=08090C" alt="Python" />
+  <img src="https://img.shields.io/badge/C++_(Learning)-00599C?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=08090C" alt="C++" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=08090C" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white&labelColor=08090C" alt="Bash" />
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white&labelColor=08090C" alt="LaTeX" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=08090C" alt="Git" />
 </p>
 
 ---
 
-### `03 // LIVE REPOSITORY TELEMETRY`
+### `02 // TECHNICAL SKILLS & DOMAIN MATRIX`
+
+<div align="center">
+
+| Domain | Core Areas of Focus &amp; Methodologies |
+| :--- | :--- |
+| **Mathematical Modelling** | Linear algebra, spectral decompositions (Eigenvalues/SVD), numerical ODE/PDE solvers, dynamical systems, multivariable calculus. |
+| **Quantitative Finance** | Stochastic calculus (Ito's Lemma), Geometric Brownian Motion (GBM), Monte Carlo path simulation, risk metrics (VaR/CVaR), volatility modeling. |
+| **Machine Learning** | Optimization manifolds, gradient descent variants, loss landscape geometry, matrix calculus for backpropagation, vectorized array primitives. |
+| **Algorithms &amp; Systems** | Computational complexity analysis $O(1) \dots O(N \log N)$, fast I/O routines, cache-conscious data structures. |
+
+</div>
+
+---
+
+### `03 // COMPUTATIONAL TARGETS`
+
+<p align="center">
+  <img src="./assets/telemetry.svg" alt="Precision &amp; Systems Focus" width="100%" />
+</p>
+
+---
+
+### `04 // GITHUB TELEMETRY & STATS`
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=aryanmsrh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&icon_color=F59E0B&text_color=E2E8F0" alt="Aryan's GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=aryanmsrh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&icon_color=F59E0B&text_color=E2E8F0" alt="GitHub Stats" width="100%" />
     </td>
     <td align="center" width="50%">
       <img src="https://streak-stats.demolab.com/?user=aryanmsrh&theme=tokyonight&hide_border=true&background=08090C&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="100%" />
@@ -101,112 +114,23 @@ STACK     :: C++20 · Python 3.11+ · NumPy · Stochastic Calculus · Low-Latenc
 
 ---
 
-### `04 // SELECTED CODEBASES`
-
-<table>
-  <thead>
-    <tr>
-      <th width="32%" align="left">System</th>
-      <th width="48%" align="left">Architecture &amp; Implementation</th>
-      <th width="20%" align="center">Metrics</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b><a href="https://github.com/aryanmsrh/neural-engine-numpy">neural-engine-numpy</a></b><br>
-        <sub>Deep Learning from Primitives</sub>
-      </td>
-      <td>
-        Hand-crafted deep learning framework written strictly with NumPy array operations. Vectors, Jacobians, and backpropagation derived on paper and coded without autodiff engines.
-      </td>
-      <td align="center">
-        <code>97.2% Acc</code><br>
-        <code>109K Params</code><br>
-        <code>NumPy Pure</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://aryanmsrh.github.io">aryanmsrh.github.io</a></b><br>
-        <sub>Interactive Mathematics Lab</sub>
-      </td>
-      <td>
-        High-performance canvas mathematics portfolio. Renders real-time 2D matrix transformations, eigenvector deformation meshes, and wave packet equations with zero external dependencies.
-      </td>
-      <td align="center">
-        <code>60 FPS</code><br>
-        <code>0 Dependencies</code><br>
-        <code>ES Modules</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/aryanmsrh/competitive-programming">competitive-programming</a></b><br>
-        <sub>Algorithmic Laboratory</sub>
-      </td>
-      <td>
-        Fast-I/O templates, number theory routines, dynamic programming, and graph algorithms benchmarked against strict Codeforces and LeetCode memory/time constraints.
-      </td>
-      <td align="center">
-        <code>O(1) / O(log N)</code><br>
-        <code>Fast I/O</code><br>
-        <code>Python &amp; C++</code>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### `05 // SYSTEM STACK & ENVIRONMENT`
+### `05 // CONTACT & CHANNELS`
 
 <div align="center">
 
-| Layer | Technologies &amp; Frameworks |
+| Channel | Destination / Handle |
 | :--- | :--- |
-| **Languages** | `C++20` · `Python 3.11+` · `LaTeX` · `Bash` · `SQL` |
-| **Scientific &amp; Numerics** | `NumPy` · `SciPy` · `Eigen` · `Matplotlib` · `SymPy` |
-| **Quant &amp; Financial** | `Monte Carlo Methods` · `Stochastic Differential Equations` · `Time-Series Analysis` |
-| **Systems &amp; Tooling** | `Linux (Ubuntu/Arch)` · `Git` · `Neovim` · `GDB` · `Valgrind` · `Make/CMake` |
-
-</div>
-
----
-
-<details>
-<summary><b>🎨 Profile Style Options &amp; Switcher (Click to Expand)</b></summary>
+| **Interactive Portfolio** | [aryanmsrh.github.io](https://aryanmsrh.github.io) |
+| **GitHub Profile** | [@aryanmsrh](https://github.com/aryanmsrh) |
+| **Direct Mail** | [aryanmsrh@gmail.com](mailto:aryanmsrh@gmail.com) |
+| **Spotify Track** | [The Weeknd — I Was Never There](https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b) |
 
 <br>
 
-You have **3 bespoke high-tech style presets** included in this repository under the [`styles/`](./styles) folder. You can switch styles instantly at any time:
+[![Visit Portfolio](https://img.shields.io/badge/VISIT-INTERACTIVE_PORTFOLIO-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=08090C&labelColor=08090C)](https://aryanmsrh.github.io)
+[![Send Email](https://img.shields.io/badge/SEND-DIRECT_MESSAGE-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090C)](mailto:aryanmsrh@gmail.com)
 
-| Style Preset | File Path | Aesthetic &amp; Profile Vibe |
-| :--- | :--- | :--- |
-| **01. Quant &amp; Systems Terminal** | [`styles/01-quant-terminal.md`](./styles/01-quant-terminal.md) | Bloomberg terminal HUD, ASCII boundary tables, stochastic differential equations, telemetry indicators. |
-| **02. Obsidian Cyber-Minimalist** | [`styles/02-obsidian-minimal.md`](./styles/02-obsidian-minimal.md) | Sleek dark markdown, ultra-clean badge pills, streamlined stat grid, zero visual noise. |
-| **03. Axiomatic Rigor** | [`styles/03-axiomatic-rigor.md`](./styles/03-axiomatic-rigor.md) | Academic preprint formatting, LaTeX definitions ($\text{Problem} \to \text{Proof}$), lemma blocks, analytical rigor. |
-
-#### How to Switch Styles:
-In your terminal, simply copy the desired style over `README.md`:
-```bash
-# To switch to Style 1 (Quant Terminal):
-cp styles/01-quant-terminal.md README.md
-
-# To switch to Style 2 (Obsidian Minimal):
-cp styles/02-obsidian-minimal.md README.md
-
-# To switch to Style 3 (Axiomatic Rigor):
-cp styles/03-axiomatic-rigor.md README.md
-```
-Then commit and push:
-```bash
-git add README.md
-git commit -m "Switch profile style"
-git push origin main
-```
-
-</details>
+</div>
 
 ---
 
@@ -217,5 +141,5 @@ git push origin main
 </p>
 
 <p align="center">
-  <sub>Constructed with mathematical precision by <a href="https://github.com/aryanmsrh">Aryan Mishra</a>.</sub>
+  <sub>Aryan Mishra // High-Tech Minimalist // Obsidian Theme</sub>
 </p>

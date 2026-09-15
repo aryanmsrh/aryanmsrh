@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="100%" height="auto" role="img" aria-labelledby="title desc">
-  <title id="title">Aryan Mishra — Quantitative &amp; Model Telemetry</title>
-  <desc id="desc">Four high-tech performance telemetry cards showing accuracy, model parameter capacity, canvas frame rate, and target latency budget.</desc>
+  <title id="title">Aryan Mishra — Core Focus &amp; Computational Targets</title>
+  <desc id="desc">Four high-tech performance telemetry cards showing numerical rigor, active C++ systems focus, Monte Carlo simulation capacity, and algorithmic complexity targets.</desc>
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
@@ -28,45 +28,45 @@
 
   <!-- Top Telemetry Header -->
   <path d="M 32 38 L 180 38 M 1020 38 L 1168 38" stroke="url(#headerGrad)" stroke-width="1.5" stroke-linecap="round"/>
-  <text x="198" y="42" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace" font-size="11" font-weight="700" letter-spacing="2.5">CORE BENCHMARKS // EMPIRICAL EVIDENCE &amp; NUMERICAL TARGETS</text>
+  <text x="198" y="42" fill="#64748B" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace" font-size="11" font-weight="700" letter-spacing="2.5">CORE TARGETS // NUMERICAL PRECISION &amp; SYSTEMS FOCUS</text>
 
-  <!-- Card 1: Accuracy (Amber) -->
+  <!-- Card 1: Numerical Rigor (Amber) -->
   <g transform="translate(32, 64)">
     <rect width="268" height="120" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
     <rect width="4" height="120" rx="2" fill="#F59E0B"/>
-    <text x="22" y="44" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="34" font-weight="800" letter-spacing="-0.5">97.2%</text>
-    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">MNIST VALIDATION</text>
-    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">Pure NumPy from scratch</text>
+    <text x="22" y="44" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="32" font-weight="800" letter-spacing="-0.5">FLOAT64</text>
+    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">NUMERICAL RIGOR</text>
+    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">High-precision mathematical models</text>
     <circle cx="242" cy="24" r="3" fill="#F59E0B" fill-opacity="0.6"/>
   </g>
 
-  <!-- Card 2: Parameters (Cyan) -->
+  <!-- Card 2: Active C++ Learning Track (Cyan) -->
   <g transform="translate(322, 64)">
     <rect width="268" height="120" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
     <rect width="4" height="120" rx="2" fill="#38BDF8"/>
-    <text x="22" y="44" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="34" font-weight="800" letter-spacing="-0.5">109.4K</text>
-    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">MODEL WEIGHTS</text>
-    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">784 → 128 → 64 → 10 backprop</text>
+    <text x="22" y="44" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="32" font-weight="800" letter-spacing="-0.5">C++20</text>
+    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">LEARNING &amp; SYSTEMS</text>
+    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">Low-latency memory &amp; STL</text>
     <circle cx="242" cy="24" r="3" fill="#38BDF8" fill-opacity="0.6"/>
   </g>
 
-  <!-- Card 3: Canvas Framerate (Violet) -->
+  <!-- Card 3: Monte Carlo Simulation (Violet) -->
   <g transform="translate(612, 64)">
     <rect width="268" height="120" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
     <rect width="4" height="120" rx="2" fill="#A855F7"/>
-    <text x="22" y="44" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="34" font-weight="800" letter-spacing="-0.5">60 FPS</text>
-    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">INTERACTIVE CANVAS</text>
-    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">Zero-dep linear algebra engine</text>
+    <text x="22" y="44" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="32" font-weight="800" letter-spacing="-0.5">10^6</text>
+    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">MONTE CARLO PATHS</text>
+    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">Vectorized stochastic simulations</text>
     <circle cx="242" cy="24" r="3" fill="#A855F7" fill-opacity="0.6"/>
   </g>
 
-  <!-- Card 4: Target Latency (Emerald) -->
+  <!-- Card 4: Complexity Bounds (Emerald) -->
   <g transform="translate(902, 64)">
     <rect width="266" height="120" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
     <rect width="4" height="120" rx="2" fill="#10B981"/>
-    <text x="22" y="44" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="34" font-weight="800" letter-spacing="-0.5">&lt; 10 µs</text>
-    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">LATENCY BUDGET</text>
-    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">Fast I/O &amp; C++ SIMD targets</text>
+    <text x="22" y="44" fill="#34D399" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="32" font-weight="800" letter-spacing="-0.5">O(log N)</text>
+    <text x="22" y="72" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">COMPLEXITY BOUNDS</text>
+    <text x="22" y="94" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', monospace" font-size="10.5">Optimal asymptotic algorithms</text>
     <circle cx="240" cy="24" r="3" fill="#10B981" fill-opacity="0.6"/>
   </g>
 </svg>
