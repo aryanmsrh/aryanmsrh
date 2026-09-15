@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="auto" role="img" aria-labelledby="bannerTitle bannerDesc">
-  <title id="bannerTitle">Aryan Mishra — Quantitative Systems &amp; Applied Mathematics</title>
-  <desc id="bannerDesc">Animated minimalist black and white technical banner in JetBrains Mono with live stochastic trajectory drawing and radar telemetry.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="auto" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Aryan Mishra (@aryanmsrh)</title>
+  <desc id="bannerDesc">Minimalist black and white technical banner with animated stochastic trajectory graph.</desc>
   <defs>
     <!-- Technical Black & White Grid -->
-    <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="0.75"/>
-      <circle cx="0" cy="0" r="0.75" fill="#FFFFFF" fill-opacity="0.2"/>
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="0.8"/>
+      <circle cx="0" cy="0" r="0.8" fill="#FFFFFF" fill-opacity="0.18"/>
     </pattern>
 
     <style>
@@ -13,33 +13,33 @@
         font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
 
-      /* Blinking status and cursor */
+      /* Blinking status */
       @keyframes blink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
       .anim-blink {
-        animation: blink 1s infinite;
+        animation: blink 1.2s infinite;
       }
 
       /* Live path drawing animation */
       @keyframes tracePath {
-        0% { stroke-dashoffset: 450; }
+        0% { stroke-dashoffset: 750; }
         45%, 85% { stroke-dashoffset: 0; }
-        95%, 100% { stroke-dashoffset: 450; }
+        95%, 100% { stroke-dashoffset: 750; }
       }
       .anim-trace {
-        stroke-dasharray: 450;
-        stroke-dashoffset: 450;
+        stroke-dasharray: 750;
+        stroke-dashoffset: 750;
         animation: tracePath 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
       }
 
       /* Scanline sweep across coordinate box */
       @keyframes sweepScan {
         0% { transform: translateX(0px); opacity: 0; }
-        10% { opacity: 0.8; }
-        75% { opacity: 0.8; }
-        85%, 100% { transform: translateX(340px); opacity: 0; }
+        10% { opacity: 0.75; }
+        75% { opacity: 0.75; }
+        85%, 100% { transform: translateX(520px); opacity: 0; }
       }
       .anim-scanline {
         animation: sweepScan 8s ease-in-out infinite;
@@ -47,9 +47,9 @@
 
       /* Radar ripple on final S_T node */
       @keyframes ripple {
-        0% { r: 3.5px; opacity: 0.9; stroke-width: 1px; }
-        50% { r: 10px; opacity: 0; stroke-width: 1.5px; }
-        100% { r: 3.5px; opacity: 0; stroke-width: 1px; }
+        0% { r: 5px; opacity: 0.9; stroke-width: 1.5px; }
+        50% { r: 18px; opacity: 0; stroke-width: 2px; }
+        100% { r: 5px; opacity: 0; stroke-width: 1.5px; }
       }
       .anim-ripple {
         animation: ripple 2.5s ease-out infinite;
@@ -58,14 +58,19 @@
       /* Alternating Monte Carlo paths opacity */
       @keyframes mcPulse1 {
         0%, 100% { opacity: 0.12; }
-        50% { opacity: 0.28; }
+        50% { opacity: 0.32; }
       }
       @keyframes mcPulse2 {
-        0%, 100% { opacity: 0.25; }
+        0%, 100% { opacity: 0.28; }
         50% { opacity: 0.08; }
+      }
+      @keyframes mcPulse3 {
+        0%, 100% { opacity: 0.16; }
+        50% { opacity: 0.38; }
       }
       .anim-mc1 { animation: mcPulse1 4s ease-in-out infinite; }
       .anim-mc2 { animation: mcPulse2 5s ease-in-out infinite; }
+      .anim-mc3 { animation: mcPulse3 3.5s ease-in-out infinite; }
 
       /* Node sequential appearance */
       @keyframes nodeFade1 { 0%, 10% { opacity: 0; } 15%, 90% { opacity: 1; } 95%, 100% { opacity: 0; } }
@@ -76,7 +81,7 @@
       .anim-n3 { animation: nodeFade3 8s infinite; }
 
       @media (prefers-reduced-motion: reduce) {
-        .anim-trace, .anim-scanline, .anim-ripple, .anim-mc1, .anim-mc2, .anim-blink, .anim-n1, .anim-n2, .anim-n3 {
+        .anim-trace, .anim-scanline, .anim-ripple, .anim-mc1, .anim-mc2, .anim-mc3, .anim-blink, .anim-n1, .anim-n2, .anim-n3 {
           animation: none !important;
           stroke-dashoffset: 0 !important;
           opacity: 1 !important;
@@ -86,98 +91,97 @@
   </defs>
 
   <!-- Solid Black Background -->
-  <rect width="1200" height="300" fill="#000000"/>
+  <rect width="1200" height="420" fill="#000000"/>
   <!-- Technical Grid Overlay -->
-  <rect width="1200" height="300" fill="url(#gridPattern)"/>
+  <rect width="1200" height="420" fill="url(#gridPattern)"/>
   <!-- Outer Minimal Border -->
-  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#27272A" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#27272A" stroke-width="1"/>
 
-  <!-- Corner Crosshairs / CAD Viewfinders -->
-  <g stroke="#71717A" stroke-width="1.2">
+  <!-- Corner 90-Degree CAD Edges / Viewfinders -->
+  <g stroke="#71717A" stroke-width="2">
     <!-- Top-Left -->
-    <path d="M 16 28 L 16 16 L 28 16" fill="none"/>
+    <path d="M 18 38 L 18 18 L 38 18" fill="none"/>
     <!-- Top-Right -->
-    <path d="M 1184 28 L 1184 16 L 1172 16" fill="none"/>
+    <path d="M 1182 38 L 1182 18 L 1162 18" fill="none"/>
     <!-- Bottom-Left -->
-    <path d="M 16 272 L 16 284 L 28 284" fill="none"/>
+    <path d="M 18 382 L 18 402 L 38 402" fill="none"/>
     <!-- Bottom-Right -->
-    <path d="M 1184 272 L 1184 284 L 1172 284" fill="none"/>
+    <path d="M 1182 382 L 1182 402 L 1162 402" fill="none"/>
   </g>
 
-  <!-- Left Content Area -->
-  <g transform="translate(56, 50)" class="mono">
-    <!-- Top Telemetry Tag with Live Blinking Indicator -->
+  <!-- Left Side: Clean Isolated Header Content -->
+  <g transform="translate(56, 140)" class="mono">
+    <!-- Top Status Line -->
     <g>
-      <circle cx="4" cy="-3.5" r="3" fill="#FFFFFF" class="anim-blink"/>
-      <text x="16" y="0" fill="#71717A" font-size="11" font-weight="600" letter-spacing="2.5">[ OPERATOR // 2026 ]  ·  SYS_ONLINE</text>
+      <circle cx="4" cy="-5" r="4" fill="#FFFFFF" class="anim-blink"/>
+      <text x="18" y="0" fill="#94A3B8" font-size="13" font-weight="600" letter-spacing="2.5">[ OPERATOR // 2026 ]  ·  SYS_ONLINE</text>
     </g>
 
     <!-- Main Name Title -->
-    <text x="0" y="46" fill="#FFFFFF" font-size="42" font-weight="700" letter-spacing="3.5">ARYAN MISHRA</text>
+    <text x="0" y="78" fill="#FFFFFF" font-size="48" font-weight="800" letter-spacing="3.5">ARYAN MISHRA</text>
 
-    <!-- Domain Focus Line -->
-    <text x="0" y="82" fill="#E4E4E7" font-size="13.5" font-weight="500" letter-spacing="1.2">APPLIED MATHEMATICS  //  QUANTITATIVE FINANCE  //  MACHINE LEARNING</text>
-
-    <!-- Methodology Statement -->
-    <text x="0" y="110" fill="#A1A1AA" font-size="12" font-weight="400" letter-spacing="0.6">Stochastic Calculus · Vectorized Numerics · Low-Latency Architecture</text>
-
-    <!-- Divider Line -->
-    <line x1="0" y1="136" x2="600" y2="136" stroke="#27272A" stroke-width="1"/>
-    <line x1="0" y1="136" x2="120" y2="136" stroke="#FFFFFF" stroke-width="1.5"/>
-
-    <!-- Bottom Status Line with Blinking Cursor -->
-    <g transform="translate(0, 164)">
-      <text x="0" y="0" fill="#52525B" font-size="10.5" font-weight="500" letter-spacing="1.8">FORMULATE FROM FIRST PRINCIPLES; EXECUTE WITH COMPUTATIONAL RIGOR. </text>
-      <rect x="545" y="-9.5" width="6.5" height="11.5" fill="#FFFFFF" class="anim-blink"/>
-    </g>
+    <!-- Username Handle in Green Font -->
+    <text x="2" y="130" fill="#10B981" font-size="24" font-weight="700" letter-spacing="2">@aryanmsrh</text>
   </g>
 
-  <!-- Right Visual Area: Animated Technical Simulation HUD -->
-  <g transform="translate(740, 40)" class="mono">
+  <!-- Right Side: Unobstructed High-Focus Stochastic Graph HUD -->
+  <g transform="translate(530, 40)" class="mono">
     <!-- Coordinate Box Frame -->
-    <rect width="404" height="220" fill="#000000" fill-opacity="0.7" stroke="#27272A" stroke-width="1"/>
-    <rect x="0" y="0" width="404" height="24" fill="#09090B" stroke="#27272A" stroke-width="1"/>
-    <text x="14" y="16" fill="#71717A" font-size="10" font-weight="600" letter-spacing="1.5">STOCHASTIC MODEL // GBM (FP64)</text>
-    <text x="388" y="16" text-anchor="end" fill="#A1A1AA" font-size="9.5">t ∈ [0, T]</text>
+    <rect width="615" height="340" fill="#000000" fill-opacity="0.9" stroke="#27272A" stroke-width="1.4"/>
+    <rect x="0" y="0" width="615" height="34" fill="#09090B" stroke="#27272A" stroke-width="1.4"/>
+    
+    <!-- HUD Header -->
+    <text x="18" y="22" fill="#94A3B8" font-size="12" font-weight="700" letter-spacing="1.5">STOCHASTIC HUD // GEOMETRIC BROWNIAN MOTION</text>
+    <text x="598" y="22" text-anchor="end" fill="#10B981" font-size="11.5" font-weight="700">t ∈ [0, T] · FP64</text>
 
     <!-- Coordinate Grid inside Box -->
-    <path d="M 36 190 L 376 190" stroke="#27272A" stroke-width="1" stroke-dasharray="2 3"/>
-    <path d="M 36 190 L 36 46" stroke="#27272A" stroke-width="1" stroke-dasharray="2 3"/>
+    <path d="M 48 290 L 575 290" stroke="#27272A" stroke-width="1.4" stroke-dasharray="2 4"/>
+    <path d="M 48 290 L 48 55" stroke="#27272A" stroke-width="1.4" stroke-dasharray="2 4"/>
     
-    <text x="372" y="204" fill="#52525B" font-size="9.5">t</text>
-    <text x="20" y="50" fill="#52525B" font-size="9.5">S_t</text>
+    <!-- Grid Sub-divisions (Vertical Time Ticks) -->
+    <line x1="180" y1="55" x2="180" y2="290" stroke="#18181B" stroke-width="1" stroke-dasharray="2 4"/>
+    <line x1="312" y1="55" x2="312" y2="290" stroke="#18181B" stroke-width="1" stroke-dasharray="2 4"/>
+    <line x1="444" y1="55" x2="444" y2="290" stroke="#18181B" stroke-width="1" stroke-dasharray="2 4"/>
 
-    <!-- Analytical Expected Value Path (Dashed) -->
-    <path d="M 36 148 Q 200 136 376 100" fill="none" stroke="#52525B" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <!-- Horizontal Grid Levels -->
+    <line x1="48" y1="210" x2="575" y2="210" stroke="#18181B" stroke-width="1" stroke-dasharray="2 4"/>
+    <line x1="48" y1="130" x2="575" y2="130" stroke="#18181B" stroke-width="1" stroke-dasharray="2 4"/>
 
-    <!-- Multiple Background Realizations (Pulsing Opacity) -->
-    <path class="anim-mc1" d="M 36 148 L 74 154 L 112 144 L 150 160 L 188 152 L 226 168 L 264 158 L 302 165 L 340 152 L 376 156" fill="none" stroke="#FFFFFF" stroke-width="1"/>
-    <path class="anim-mc2" d="M 36 148 L 74 138 L 112 146 L 150 132 L 188 140 L 226 122 L 264 130 L 302 115 L 340 120 L 376 108" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <!-- Axis Labels & Tick Marks -->
+    <text x="570" y="312" fill="#71717A" font-size="12" font-weight="700">t</text>
+    <text x="22" y="62" fill="#71717A" font-size="12" font-weight="700">S_t</text>
+
+    <text x="48" y="312" fill="#52525B" font-size="11">t=0</text>
+    <text x="180" y="312" fill="#52525B" font-size="11" text-anchor="middle">T/4</text>
+    <text x="312" y="312" fill="#52525B" font-size="11" text-anchor="middle">T/2</text>
+    <text x="444" y="312" fill="#52525B" font-size="11" text-anchor="middle">3T/4</text>
+    <text x="575" y="312" fill="#52525B" font-size="11" text-anchor="middle">T</text>
+
+    <!-- Analytical Expected Value Path (Dashed Silver Drift) -->
+    <path d="M 48 225 Q 312 205 575 138" fill="none" stroke="#52525B" stroke-width="1.6" stroke-dasharray="4 4"/>
+
+    <!-- Multiple Background Stochastic Realizations (Pulsing Paths) -->
+    <path class="anim-mc1" d="M 48 225 L 105 240 L 165 215 L 225 250 L 285 230 L 345 260 L 405 240 L 465 255 L 525 220 L 575 238" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+    <path class="anim-mc2" d="M 48 225 L 105 210 L 165 228 L 225 198 L 285 212 L 345 180 L 405 192 L 465 168 L 525 180 L 575 160" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+    <path class="anim-mc3" d="M 48 225 L 105 200 L 165 178 L 225 190 L 285 162 L 345 172 L 405 140 L 465 155 L 525 116 L 575 106" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
 
     <!-- Vertical Sweeping Scanline -->
-    <g transform="translate(36, 46)">
-      <line class="anim-scanline" x1="0" y1="0" x2="0" y2="144" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="2 2"/>
+    <g transform="translate(48, 55)">
+      <line class="anim-scanline" x1="0" y1="0" x2="0" y2="235" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.2" stroke-dasharray="3 3"/>
     </g>
 
-    <!-- Primary Stochastic Trajectory (Live Tracing White Line) -->
-    <path class="anim-trace" d="M 36 148 L 74 132 L 112 140 L 150 118 L 188 124 L 226 98 L 264 106 L 302 78 L 340 84 L 376 60" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Primary Stochastic Trajectory (Prominent Live Tracing Solid White Path) -->
+    <path class="anim-trace" d="M 48 225 L 105 195 L 165 212 L 225 170 L 285 184 L 345 138 L 405 154 L 465 104 L 525 118 L 575 75" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
 
     <!-- Trajectory Key Nodes (Sequential Appearance) -->
-    <circle cx="36" cy="148" r="3" fill="#FFFFFF"/>
-    <circle class="anim-n1" cx="150" cy="118" r="2.5" fill="#FFFFFF"/>
-    <circle class="anim-n2" cx="264" cy="106" r="2.5" fill="#FFFFFF"/>
+    <circle cx="48" cy="225" r="5" fill="#FFFFFF"/>
+    <circle class="anim-n1" cx="225" cy="170" r="4.5" fill="#FFFFFF"/>
+    <circle class="anim-n2" cx="405" cy="154" r="4.5" fill="#FFFFFF"/>
     
     <!-- Final Terminal Price Node with Radar Ping Ripple -->
     <g class="anim-n3">
-      <circle class="anim-ripple" cx="376" cy="60" r="3.5" fill="none" stroke="#FFFFFF"/>
-      <circle cx="376" cy="60" r="3.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
-    </g>
-
-    <!-- Inset Telemetry Metric Box -->
-    <g transform="translate(50, 60)">
-      <rect width="170" height="36" fill="#000000" stroke="#27272A" stroke-width="1"/>
-      <text x="10" y="15" fill="#A1A1AA" font-size="9" font-weight="600" letter-spacing="1">dS_t = μ S_t dt + σ S_t dW_t</text>
-      <text x="10" y="28" fill="#71717A" font-size="8.5">1,000,000 PATHS · AVX2</text>
+      <circle class="anim-ripple" cx="575" cy="75" r="5.5" fill="none" stroke="#10B981"/>
+      <circle cx="575" cy="75" r="5.5" fill="#10B981" stroke="#000000" stroke-width="2"/>
     </g>
   </g>
 </svg>
