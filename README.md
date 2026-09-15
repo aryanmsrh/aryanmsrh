@@ -1,5 +1,5 @@
 <!-- ================================================================= -->
-<!-- ARYAN MISHRA (aryanmsrh) // OBSIDIAN MINIMAL                      -->
+<!-- ARYAN MISHRA (aryanmsrh) // 2026                                  -->
 <!-- Applied Mathematics · Quantitative Finance · Machine Learning     -->
 <!-- ================================================================= -->
 
@@ -26,7 +26,7 @@ STATUS    :: Formulate from first principles; execute with computational rigor.
 
 ---
 
-### `// ON REPEAT`
+### `// NOW PLAYING`
 
 <p align="center">
   <a href="https://open.spotify.com/track/1cKHxgncyUbxYqZ5yv6V1b" target="_blank" rel="noopener noreferrer">
@@ -78,28 +78,35 @@ STATUS    :: Formulate from first principles; execute with computational rigor.
 
 ---
 
-### `03 // COMPUTATIONAL TARGETS`
-
+### `03 // TERMINAL & RUNTIME`
+ 
 <p align="center">
-  <img src="./assets/telemetry.svg" alt="Precision &amp; Systems Focus" width="100%" />
+  <img src="./assets/terminal.svg" alt="Aryan Mishra — Terminal Runtime &amp; Simulation" width="100%" />
 </p>
 
 ---
 
 ### `04 // GITHUB TELEMETRY & STATS`
-
+ 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=aryanmsrh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&icon_color=F59E0B&text_color=E2E8F0" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=aryanmsrh&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&icon_color=F59E0B&text_color=E2E8F0" alt="GitHub Stats" width="100%" />
     </td>
     <td align="center" width="50%">
       <img src="https://streak-stats.demolab.com/?user=aryanmsrh&theme=tokyonight&hide_border=true&background=08090C&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aryanmsrh&layout=compact&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&text_color=E2E8F0" alt="Top Languages" width="60%" />
+    <td align="center" width="50%">
+      <a href="https://github.com/aryanmsrh/neural-engine-numpy" target="_blank" rel="noopener noreferrer">
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aryanmsrh&repo=neural-engine-numpy&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&icon_color=F59E0B&text_color=E2E8F0" alt="Featured Repository: neural-engine-numpy" width="100%" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/aryanmsrh/competitive-programming" target="_blank" rel="noopener noreferrer">
+        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aryanmsrh&repo=competitive-programming&theme=tokyonight&hide_border=true&bg_color=08090C&title_color=38BDF8&icon_color=F59E0B&text_color=E2E8F0" alt="Featured Repository: competitive-programming" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
@@ -133,5 +140,5 @@ STATUS    :: Formulate from first principles; execute with computational rigor.
 </p>
 
 <p align="center">
-  <sub>Aryan Mishra // High-Tech Minimalist // Obsidian Theme</sub>
+  <sub>Aryan Mishra // 2026</sub>
 </p>
