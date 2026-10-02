@@ -30,8 +30,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Faryanmsrh%2Faryanmsrh.json&style=for-the-badge&label=PROFILE%20VIEWS&color=27272A&labelColor=000000" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/CONTRIBUTIONS-62-27272A?style=for-the-badge&labelColor=000000" alt="Contributions" />
-  <img src="https://img.shields.io/badge/REPOSITORIES-4-27272A?style=for-the-badge&labelColor=000000" alt="Repositories" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Faryanmsrh&query=%24.total.*&label=CONTRIBUTIONS&style=for-the-badge&color=27272A&labelColor=000000" alt="Contributions" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Faryanmsrh&query=%24.public_repos&label=REPOSITORIES&style=for-the-badge&color=27272A&labelColor=000000" alt="Repositories" />
 </p>
 
 ---
